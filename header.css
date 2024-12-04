@@ -1,0 +1,58 @@
+ /* --------------------------------header-------------------------------------- */
+ .header-wrapper {
+    border-radius: 20px; 
+    padding: 3px; 
+    background: linear-gradient(to right, #D20C65, #9814AF); 
+    margin: 20px;
+}
+  header {
+    background-color: #2C143C;
+    padding: 20px 0;
+    border-radius: 17px; 
+    box-sizing: border-box;
+  }
+  
+  .nav-list {
+    display: flex;
+    justify-content: space-between; 
+    list-style-type: none;
+  }
+  
+  .nav-list li {
+    flex: 1; 
+    text-align: center; 
+  }
+  
+  .nav-list a {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    position: relative;
+    transition: color 0.3s;
+  }
+
+  .nav-list a::after {
+    content: ""; /* Geen tekst, alleen een lijn */
+    position: absolute;
+    left: 50%;
+    bottom: -5px; /* Plaats de lijn iets onder de tekst */
+    width: 100%; /* Start met een breedte van 0 */
+    height: 2px; /* Hoogte van de lijn */
+    background: linear-gradient(to right, #D20C65, #9814AF); /* Gradient van roze naar paars */
+    transform: translateX(-50%) scaleX(0); /* Start de schaal op 0 (onzichtbaar) */
+    transform-origin: center; /* Zorgt ervoor dat de lijn zich uitbreidt vanuit het midden */
+    transition: transform 0.3s ease; /* Maak een animatie */
+  }
+  
+
+  .nav-list a:hover::after {
+    transform: translateX(-50%) scaleX(1); 
+  }
+  
+
+  .gradient-divider {
+    height: 3px;
+    background: linear-gradient(to left, #D20C65, #9814AF); /* Gradient effect */
+    border: none;
+    margin: 50px 20px;
+  }

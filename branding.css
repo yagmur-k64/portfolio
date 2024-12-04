@@ -1,0 +1,157 @@
+/* Algemene styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'K2D', sans-serif;
+    background-color: #2C143C;
+  }
+
+   /*-------------------------intro---------------------------------------*/
+
+.intro {
+    display: flex;
+    align-items: center;
+    padding: 16px 90px 0px 90px;
+    font-family: 'K2D', sans-serif;
+    position: relative;
+}
+
+  .intro .text {
+    flex: 1;
+    max-width: 100%;
+    color: white; 
+    font-size: 24px;
+    font-weight: 400;
+    padding: 16px 16px 40px 16px;
+  }
+  .intro .text h2{
+    color: #FCFD9D;
+    font-size: 64px;
+    font-weight: 800;
+    padding-bottom: 20PX;
+  }
+
+  .gradient-divider {
+    height: 3px;
+    background: linear-gradient(to left, #D20C65, #9814AF); /* Gradient effect */
+    border: none;
+    margin: 50px 20px;
+  }
+
+   /*-------------------------persona---------------------------------------*/
+   .persona {
+    display: flex;
+    align-items: center;
+    padding: 16px 90px 0px 90px;
+    gap: 20px;
+    font-family: 'K2D', sans-serif;
+    position: relative;
+}
+.persona img{
+    height: auto;
+}
+
+  .persona .text {
+    flex: 1;
+    justify-content: center;
+    max-width: 50%;
+    color: white; 
+    font-size: 20px;
+    font-weight: 400;
+
+  }
+  .persona .text h3{
+    color: white;
+    font-size: 48px;
+    font-weight: 600;
+    padding-bottom: 20PX;
+  }
+  .persona .text p{
+    margin: 0;
+  }
+
+  .gradient-divider {
+    height: 3px;
+    background: linear-gradient(to left, #D20C65, #9814AF); /* Gradient effect */
+    border: none;
+    margin: 50px 20px;
+  }
+
+  /*-------------------------mmodboard---------------------------------------*/
+  .moodboard {
+    display: flex;
+    align-items: center;
+    padding: 16px 90px 0px 90px;
+    font-family: 'K2D', sans-serif;
+    position: relative;
+} 
+  h3{
+    color: white;
+    font-size: 48px;
+    font-weight: 600;
+    padding-bottom: 20PX;
+  }
+   
+  .text {
+    flex: 1;
+    max-width: 100%;
+    color: white; 
+    font-size: 20px;
+    font-weight: 400;
+    padding: 16px 16px 40px 16px;
+  }
+  .moodboard img{
+    max-height: 547pxS;
+  }
+  /*-------------------------logo---------------------------------------*/
+  .logo {
+    display: flex;
+    align-items: center;
+    padding: 16px 90px 0px 90px;
+    font-family: 'K2D', sans-serif;
+    position: relative;
+} 
+.logo img{
+    height: 219px;
+    width: 382px;
+}
+  /*-------------------------style scape---------------------------------------*/
+  .style-scape {
+    display: flex;
+    align-items: center;
+    padding: 16px 90px 0px 90px;
+    font-family: 'K2D', sans-serif;
+    position: relative;
+} 
+.style-scape .text p{
+    padding: 30px 0 30px 0;
+}
+  /*-------------------------brand guide---------------------------------------*/
+  .brand-guide {
+    display: flex;
+    align-items: center;
+    padding: 16px 90px 0px 90px;
+    font-family: 'K2D', sans-serif;
+    position: relative;
+} 
+.brand-guide .text{
+    text-align: right;
+}
+  /*-------------------------reflectie---------------------------------------*/
+  .reflectie {
+    display: flex;
+    align-items: center;
+    padding: 16px 90px 0px 90px;
+    font-family: 'K2D', sans-serif;
+    position: relative;
+} 
+
+img{
+    max-width: 1440 px;
+}
+
+ 

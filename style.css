@@ -1,0 +1,234 @@
+/* Algemene styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'K2D', sans-serif;
+    background-color: #2C143C;
+  }
+  
+ 
+
+  /*-------------------------intro---------------------------------------*/
+
+  .intro-wrapper {
+    border-radius: 50px; /* Border-radius van 50px */
+    padding: 3px; /* Ruimte voor de gradient rand */
+    background: linear-gradient(to right, #D20C65, #9814AF); /* Gradient van roze naar paars */
+    margin: 20px;
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 90px 0px 90px;
+    font-family: 'K2D', sans-serif;
+    background-color: #2C143C; /* Donkerpaarse achtergrond voor de binnenkant */
+    border-radius: 47px; /* Iets kleiner dan de wrapper voor een perfecte pasvorm */
+    box-sizing: border-box;
+    position: relative;
+    z-index: 1;
+}
+
+
+  .intro .text {
+    flex: 1;
+    max-width: 35%;
+    color: white; 
+    font-size: 24px;
+    font-weight: 400;
+    padding: 16px 16px 40px 16px;
+  }
+  .intro .text h2{
+    color: #FCFD9D;
+    font-size: 64px;
+    font-weight: 800;
+  }
+  .intro .image {
+    flex: 1;
+    max-width: 45%; 
+    display: flex;
+    justify-content: center; 
+    align-items: flex-end;
+  }
+  
+  .intro .image img {
+    width: 100%; 
+    max-width: 620px; 
+    height: auto;
+    align-self: flex-end;
+  }
+  
+  /* Mobiele weergave aanpassing */
+  @media (max-width: 768px) {
+    .intro {
+      flex-direction: column; 
+      text-align: center;
+    }
+  
+    .intro .text,
+    .intro .image {
+      max-width: 100%; 
+    }
+  }
+  
+
+  /*------------------------projects-----------------------------*/
+  .projects {
+    background-color: #2C143C; /* Achtergrondkleur passend bij je thema */
+    text-align: center; /* Centreer de titel horizontaal */
+    min-height: 100vh; /* Zorg ervoor dat de sectie minstens de volledige schermhoogte heeft */
+    margin: 20px;
+}
+
+.title-wrapper {
+    border-radius: 50px; 
+    padding: 3px; /* Ruimte voor de gradient rand */
+    background: linear-gradient(to right, #D20C65, #9814AF); /* Gradient van roze naar paars */
+    margin: 20px auto; /* Centreert de wrapper in de sectie */
+    display: inline-block; /* Zorgt ervoor dat de wrapper zich aanpast aan de breedte van de inhoud */
+}
+
+.title {
+    background-color: #2C143C;
+    padding: 10px 40px 15px 40px;
+    border-radius: 47px; /* Iets kleiner dan de wrapper voor een perfecte pasvorm */
+    box-sizing: border-box;
+}
+
+.title h2 {
+    font-family: 'K2D', sans-serif;
+    color: #ffffff; /* Kleur van de titel */
+    font-size: 48px; /* Grootte van de titel */
+    font-weight: 400;
+    margin: 0;
+    text-align: center;
+}
+
+.triangle {
+  position: relative; 
+  width: 100%; 
+  margin: 0; 
+  display: flex;
+  justify-content: center;
+  border-right: 20px;
+  align-items: center;
+}
+
+
+
+.triangle img {
+  display: block;
+  position: absolute; 
+  width: 436px;
+  height: auto; 
+  transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
+}
+
+.triangle a::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Donkere overlay */
+  opacity: 0; /* Standaard onzichtbaar */
+  transition: opacity 0.3s ease;
+  z-index: 1; /* Zorg dat het boven de afbeelding zit */
+}
+
+.triangle a:hover::after {
+  opacity: 1; /* Gloed wordt zichtbaar */
+}
+
+.triangle a:hover img {
+  filter: brightness(0.8); /* Optionele lichte verduistering van de afbeelding */
+}
+
+.triangle .prj2 {
+  position: absolute;
+  top: 50%;
+  left: 55px; 
+  transform: translateY(50%);
+}
+
+.triangle .prj1 {
+  position: absolute;
+  top: 0; 
+  left: 50%; 
+  transform: translateX(-50%); 
+}
+
+.triangle .prj3 {
+  position: absolute;
+  top: 50%;
+  right: 55px; 
+  transform: translateY(50%); 
+}
+
+.triangle :hover{
+  color: #2C143C;
+}
+
+  /*------------------------outcomes-----------------------------*/
+
+.outcomes {
+    background-color: #2C143C; /* Achtergrondkleur passend bij je thema */
+    text-align: center; /* Centreer de titel horizontaal */
+    padding: 50px 20px;
+    min-height: 100vh; /* Zorg ervoor dat de sectie minstens de volledige schermhoogte heeft */
+}
+
+.outcome-wrapper {
+    width: 615px;
+    border-radius: 50px; 
+    padding: 3px; /* Ruimte voor de gradient rand */
+    background: linear-gradient(to right, #D20C65,#D20C65,#D20C65, #2C143C, #2C143C); /* Gradient van roze naar paars */
+    margin: 20px auto; /* Centreert de wrapper in de sectie */
+    display: flex; 
+    justify-content: center;
+}
+
+.outcome {
+    background-color: #2C143C;
+    height: 200px;
+    padding: 10px 40px 15px 40px;
+    border-radius: 47px; /* Iets kleiner dan de wrapper voor een perfecte pasvorm */
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    gap: 20px;
+}
+
+.outcome h2 {
+    font-family: 'K2D', sans-serif;
+    color: #ffffff; /* Kleur van de titel */
+    font-size: 32px; /* Grootte van de titel */
+    font-weight: 400;
+    margin: 0;
+    text-align: center;
+    flex: 1;
+}
+.outcome .number {
+    font-family: 'K2D', sans-serif;
+    color: #ffffff; /* Kleur voor de nummers */
+    font-size: 96px; /* Grootte van de nummers */
+    font-weight: 800;
+    margin: 0; /* Ruimte tussen nummer en titel */
+    flex-shrink: 0;
+}
+
+.outcomes-grid {
+    display: flex;
+    flex-wrap: wrap; /* Maakt meerdere rijen mogelijk */
+    gap: 20px; /* Ruimte tussen de outcome-wrapper elementen */
+    justify-content: center; /* Centreert de items in het midden */
+}
+
+ 

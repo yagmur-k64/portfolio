@@ -1,0 +1,200 @@
+/* Algemene styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'K2D', sans-serif;
+    background-color: #2C143C;
+  }
+  
+
+/*-------------------------intro---------------------------------------*/
+
+.intro-wrapper {
+    border-radius: 50px; /* Border-radius van 50px */
+    padding: 3px; /* Ruimte voor de gradient rand */
+    background: linear-gradient(to right, #D20C65, #9814AF); /* Gradient van roze naar paars */
+    margin: 20px;
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 90px 0px 90px;
+    font-family: 'K2D', sans-serif;
+    background-color: #2C143C; /* Donkerpaarse achtergrond voor de binnenkant */
+    border-radius: 47px; /* Iets kleiner dan de wrapper voor een perfecte pasvorm */
+    box-sizing: border-box;
+    position: relative;
+    z-index: 1;
+}
+
+
+  .intro .text {
+    flex: 1;
+    color: white; 
+    font-size: 24px;
+    font-weight: 400;
+    padding: 16px 16px 40px 16px;
+  }
+  .intro .text h2{
+    color: #FCFD9D;
+    font-size: 64px;
+    font-weight: 800;
+    margin-bottom: 20px;
+  }
+
+  .text p{
+    margin-bottom: 20px;
+  }
+
+  
+  /* Mobiele weergave aanpassing */
+  @media (max-width: 768px) {
+    .intro {
+      flex-direction: column; 
+      text-align: center;
+    }
+  
+    .intro .text,
+    .intro .image {
+      max-width: 100%; 
+    }
+  }
+
+  /*-------------------------------- skills ---------------------------*/
+
+.container{
+    padding: 20px 90px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+
+}
+  .technical-skills-section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+  
+  .column {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .column:last-child {
+    margin-right: 0;
+  }
+
+  .icon-text{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    padding-bottom: 15px;
+  }
+/* -----------------------------technical skills--------------------------------- */
+
+  .icon-text img{
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+  }
+
+  .skills-icons img {
+    width: 40px;
+    margin: 5px;
+  }
+
+/* -----------------------------personal skills--------------------------------- */
+  
+  .skills-bars .skill {
+    margin-bottom: 15px;
+  }
+  
+  .skills-bars .progress {
+    background: #4F4F4F;
+    border-radius: 20px;
+    overflow: hidden;
+    height: 40px;
+    margin-top: 5px;
+  }
+  
+  .skills-bars .progress span {
+    display: block;
+    height: 100%;
+    background: #FF007F;
+  }
+  
+
+  /* -----------------------------talen--------------------------------- */
+
+  .languages-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+ 
+  
+
+/* -----------------------------opleidingen--------------------------------- */
+
+.education-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .education-section ul li {
+    margin-bottom: 10px;
+  }
+  .opleiding ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .opleiding li {
+    margin-bottom: 20px;
+  }
+  
+  .edu-header {
+    display: flex;
+    gap: 10px;
+    align-items: baseline;
+    margin-bottom: 5px;
+  }
+  
+  .school {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .jaar {
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.7);
+  }
+  
+  .studie {
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.9);
+    margin-top: 5px;
+    line-height: 1.5;
+  }
+
+/* --------------------------contact-------------------------- */
+  .contact-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .contact-section ul li {
+    margin-bottom: 10px;
+  }

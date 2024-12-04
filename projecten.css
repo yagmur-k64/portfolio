@@ -1,0 +1,83 @@
+/* Algemene styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #2C143C; /* Donkerpaarse achtergrond */
+    color: white;
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  /* Sectie styling */
+  .projects-section {
+    padding: 20px;
+  }
+  
+  /* Grid layout voor projecten */
+  .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Drie kolommen */
+    gap: 75px; /* Ruimte tussen de blokken */
+    padding: 20px 85px;
+  }
+  
+  /* Projectblok styling */
+  .project-block {
+    background-color: #44224E; /* Iets lichtere paarse achtergrond */
+    border-radius: 15px; /* Afgeronde hoeken */
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtiele schaduw */
+    width: 375px;
+  }
+  
+  .project-block img {
+    width: 98%; /* Afbeelding vult het blok volledig */
+    height: 225px; /* Stel een vaste hoogte in voor afbeeldingen */
+    object-fit: cover; /* Zorgt dat de afbeelding proportioneel blijft */
+    margin-top: 1%;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  .project-block:hover img {
+    transform: translateY(5px); /* Beweeg de afbeelding 5px omlaag */
+  }
+
+  .project-block h3 {
+    padding-top: 30px;
+    margin: 10px 30px;
+    font-size: 1.2rem;
+    color: white;
+    text-align: left;
+  }
+
+  .bedrijf{
+    margin: 5px 30px;
+    font-size: 1rem;
+    color: white;
+    text-align: left;
+  }
+
+  .bekijk{
+    margin: 1px 30px;
+    padding-bottom: 15px;
+    font-size: 0.9rem;
+    text-decoration: none;
+    color: #FCFD9D;
+    text-align: left;
+  }
+  
+  /* Responsiviteit */
+  @media (max-width: 768px) {
+    .projects-grid {
+      grid-template-columns: repeat(2, 1fr); /* Twee kolommen op kleinere schermen */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .projects-grid {
+      grid-template-columns: 1fr; /* Eén kolom op heel kleine schermen */
+    }
+  }
+  

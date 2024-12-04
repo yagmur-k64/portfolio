@@ -1,0 +1,37 @@
+ /*------------------------footer-----------------------------*/
+
+ footer {
+    background-color: #2C143C;
+    padding: 20px 0;
+    border-radius: 50px; 
+    box-sizing: border-box;
+    margin: 20px;
+  
+    box-shadow: 0 0 15px #ffffff, 0 0 30px #ffffff; /* Verlichte rand */
+  }
+  
+  .footer-content {
+    display: flex; /* Zorgt ervoor dat de inhoud naast elkaar staat */
+    justify-content: space-between; /* Zorgt voor ruimte tussen de tekst en de afbeeldingen */
+    align-items: center; /* Centreert items verticaal */
+  }
+  
+  .footer-left p {
+    font-size: 20px; /* Tekstgrootte */
+    color: white;
+    font-weight: 300; /* Vetgedrukte tekst */
+    margin:0; /* Verwijdert standaard marges */
+    padding-left: 65px;
+  }
+  
+  .footer-right img {
+    width: 40px; /* Breedte van de afbeeldingen */
+    height: 40px; /* Hoogte van de afbeeldingen */
+    margin-left: 25px; /* Ruimte tussen afbeeldingen */
+    border-radius: 5px; /* Optioneel: ronde hoeken */
+    object-fit: cover; /* Zorgt dat de afbeeldingen netjes blijven */
+  
+  }
+  .footer-right{
+    padding-right: 65px;
+  }
