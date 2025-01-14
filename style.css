@@ -78,11 +78,13 @@
   
 
   /*------------------------projects-----------------------------*/
+ 
   .projects {
     background-color: #2C143C; /* Achtergrondkleur passend bij je thema */
     text-align: center; /* Centreer de titel horizontaal */
     min-height: 100vh; /* Zorg ervoor dat de sectie minstens de volledige schermhoogte heeft */
     margin: 20px;
+    margin-bottom: 300px;
 }
 
 .title-wrapper {
@@ -171,9 +173,33 @@
   transform: translateY(50%); 
 }
 
+.triangle .prj5 {
+  position: absolute;
+  top: 50%;
+  left: 55px; 
+  transform: translateY(155%);
+}
+
+.triangle .prj4 {
+  position: absolute;
+  top: 360px; 
+  left: 50%; 
+  transform: translateX(-50%); 
+}
+
+.triangle .prj6 {
+  position: absolute;
+  top: 50%;
+  right: 55px; 
+  transform: translateY(155%); 
+}
+
 .triangle :hover{
   color: #2C143C;
 }
+
+
+
 
   /*------------------------outcomes-----------------------------*/
 
@@ -192,6 +218,7 @@
     margin: 20px auto; /* Centreert de wrapper in de sectie */
     display: flex; 
     justify-content: center;
+    flex-direction: column;
 }
 
 .outcome {
