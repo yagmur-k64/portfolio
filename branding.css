@@ -24,7 +24,7 @@
     flex: 1;
     max-width: 100%;
     color: white; 
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 400;
     padding: 16px 16px 40px 16px;
   }
@@ -41,6 +41,40 @@
     border: none;
     margin: 50px 20px;
   }
+
+  .btn-container {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+}
+
+.btn-item {
+    display: flex; 
+    align-items: center; 
+    gap: 10px; 
+    cursor: pointer;
+    color: var(--main-colour);
+}
+
+
+.btn-item img {
+    width: 50px;
+    height: auto;
+}
+
+.btn-item h1 {
+    font-size: 18px;
+    margin: 0;
+    padding-top: 5px;
+    color: aliceblue;
+
+}
+
+.previous img {
+    transform: scaleX(-1)
+}
 
    /*-------------------------persona---------------------------------------*/
    .persona {
