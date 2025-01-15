@@ -8,8 +8,8 @@ document.addEventListener("DOMContentLoaded", () => {
     const dropdown4 = document.querySelector("#LO4 .dropdown-title");
     const content4 = document.querySelector("#LO4 .dropdown-content");
 
-    // Set initial state: First dropdown open, second closed
-    content1.style.display = "block";
+    // Set initial state: closed
+    content1.style.display = "none";
     content2.style.display = "none";
     content3.style.display = "none";
     content4.style.display = "none";
