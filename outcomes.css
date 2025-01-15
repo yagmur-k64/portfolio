@@ -42,3 +42,11 @@
     display: block;
 
 }
+
+.bewijs-container{
+    display: flex;
+}
+
+.bewijs-container ul{
+    margin: 20px;
+}
