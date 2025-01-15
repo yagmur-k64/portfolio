@@ -87,12 +87,14 @@
    .persona {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     padding: 16px 90px 0px 90px;
     gap: 20px;
     font-family: 'K2D', sans-serif;
     position: relative;
 }
 .persona img{
+  max-width: 400px;
     height: auto;
 }
 
@@ -113,13 +115,6 @@
   }
   .persona .text p{
     margin: 0;
-  }
-
-  .gradient-divider {
-    height: 3px;
-    background: linear-gradient(to left, #D20C65, #9814AF); /* Gradient effect */
-    border: none;
-    margin: 50px 20px;
   }
 
   /*-------------------------mmodboard---------------------------------------*/
@@ -195,7 +190,7 @@
   .reflectie {
     display: flex;
     align-items: center;
-    padding: 16px 90px 0px 90px;
+    padding: 16px 90px 90px 90px;
     font-family: 'K2D', sans-serif;
     position: relative;
 } 
