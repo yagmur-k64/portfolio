@@ -78,7 +78,7 @@
  .inzichten {
     display: flex;
     align-items: center;
-    padding: 16px 90px 0px 90px;
+    padding: 16px 200px 0px 200px;
     gap: 20px;
     font-family: 'K2D', sans-serif;
     position: relative;
@@ -90,7 +90,7 @@
     justify-content: center;
     max-width: 100%;
     color: white; 
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 400;
 
   }
@@ -108,7 +108,7 @@
 .hierarchie {
     display: flex;
     align-items: center;
-    padding: 16px 90px 0px 90px;
+    padding: 16px 200px 0px 200px;
     gap: 20px;
     font-family: 'K2D', sans-serif;
     position: relative;
@@ -120,7 +120,7 @@
     justify-content: center;
     max-width: 100%;
     color: white; 
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 400;
 
   }
@@ -137,7 +137,7 @@
 .keuze {
     display: flex;
     align-items: center;
-    padding: 16px 90px 0px 90px;
+    padding: 16px 200px 0px 200px;
     gap: 20px;
     font-family: 'K2D', sans-serif;
     position: relative;
@@ -149,7 +149,7 @@
     justify-content: center;
     max-width: 100%;
     color: white; 
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 400;
 
   }
@@ -168,7 +168,7 @@
 .presenteren {
     display: flex;
     align-items: center;
-    padding: 16px 90px 0px 90px;
+    padding: 16px 200px 0px 200px;
     gap: 20px;
     font-family: 'K2D', sans-serif;
     position: relative;
@@ -180,7 +180,7 @@
     justify-content: center;
     max-width: 100%;
     color: white; 
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 400;
 
   }
@@ -198,7 +198,7 @@
 .prototype, .reflectie {
     display: flex;
     align-items: center;
-    padding: 16px 90px 0px 90px;
+    padding: 16px 200px 0px 200px;
     gap: 20px;
     font-family: 'K2D', sans-serif;
     position: relative;
@@ -210,7 +210,7 @@
     justify-content: center;
     max-width: 100%;
     color: white; 
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 400;
 
   }
@@ -232,3 +232,20 @@
   .reflectie{
     margin-bottom: 100px;
   }
+
+  .text p{
+    padding-top: 8px;
+}
+.container {
+    margin: 10px auto;
+}
+.title{
+    margin: 10px 200px;
+}
+.container h2{
+    color: #D20C65;
+}
+
+#reflectie{
+  margin-bottom: 50px;
+}

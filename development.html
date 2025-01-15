@@ -36,9 +36,8 @@
     <section class="intro">
         <div class="text">
             <h2>Development</h2>
-            <p>Dit is een vervolg op project 2 “Fix that UI”. In project 3 moeten we de website die we hiervoor hebben ontworpen, de “Zekur” verzekering aansluiting proces,  programmeren. Hiervoor is ons groep in twee gesplits. Ik heb samen met Sara en Jonas gewerkt. Vorige project had Jonas alleen gewerkt waardoor hij andere prototypes heeft gemaakt. Wij hebben als groepje gekeken naar beide prototypes. We hebben de beste elementen uit beide gepakt en deze samengevoegd. Dit is het uiteindelijke flow prototype geworden.</p>
-            <p>Wij hebben aan het begin van het project een planning gemaakt voor ons zelf en zo hebben we wekelijks 1 tot 3 vergaderingen gehad. Elke keer hebben we taken verdeeld en de volgende keer deze laten zien. Jonas heeft mij uitgelegd hoe ik code moet pushen en pullen op Git. Op het begin snapte ik dit nog niet helemaal, maar ik heb op school ook hulp gevraagd aan andere studenten. Nu weet ik precies wat ik allemaal moet doen om mijn code te delen.</p>
-            <img src="images/prototypes_hike.png" alt="prototypes">
+            <p>Dit is een vervolg op project 2 “Fix that UI”. In project 3 moeten we de website die we hiervoor hebben ontworpen, de “Zekur” verzekering aansluiting proces,  programmeren. Hiervoor is ons groep in twee gesplits. Ik heb samen met Sara en Jonas gewerkt. Vorige project had Jonas alleen gewerkt waardoor hij andere prototypes heeft gemaakt. Wij hebben als groepje gekeken naar beide prototypes. We hebben de beste elementen uit beide gepakt en deze <a href=https://www.figma.com/design/oOZkz8fIFLElCJrDdQ6uYG/Zekur-Fixed-UX?node-id=69-2&t=l4fIBbxDjG1BbLoi-1 target="_blank">samengevoegd</a>. Dit is het <a href="images/prototypes_hike.png" target="_blank">uiteindelijke flow prototype</a> geworden.</p>
+            <p>Wij hebben aan het begin van het project een planning gemaakt voor ons zelf en zo hebben we wekelijks 1 tot 3 vergaderingen gehad. Elke keer hebben we taken verdeeld en de volgende keer deze laten zien. Jonas heeft mij uitgelegd hoe ik code moet pushen en pullen op <a href=https://github.com/JonasWesselius/Zekur target="_blank">GitHub</a>. Op het begin snapte ik dit nog niet helemaal, maar ik heb op school ook hulp gevraagd aan andere studenten. Nu weet ik precies wat ik allemaal moet doen om mijn code te delen.</p>
 
         </div>
     </section>
@@ -59,44 +58,67 @@
         </div>
     </div>
     
-    <!-------------persona----------------------------------------------------------------------->
+    <!-------------programmeren----------------------------------------------------------------------->
 
-    <section class="programmeren">
+    <section class="title">
         <h3>Programmeren</h3>
-        <section>
-            <div>
-                <p>In de eerste week hebben we bestolen dat ik de inhoud van de landings pagina ga maken en Jonas de header en footer. Ik had op het begin moeite met het positioneren van een aantal elementen. Natuurlijk heb ik wel hulp gekregen van ChatGpt, maar ik heb ook veel dingen zelf geprobeerd. Nadat ik een stuk code had en het er ongeveer uitzag hoe ik het wilde hebben, heb ik veel nagechekt met “inspecteren” zo heb ik de positie van de teksten en afbeeldingen verfijnd. </p>
+        <p class="zekurWebsite"><a href="Zekur/index.html">Klik hier om naar ons verbeterde website te gaan.</a></p> <br>
+        <div class="container">
+            <h2>Landing page</h2>
+            <div class="text">
+                <p>Nadat we de nieuwe flow hadden gecreëerd, hebben we besloten dat ik de landingspagina zou maken en Jonas de header en footer. Ik ben begonnen met het analyseren van de huidige Zekur-website om te begrijpen hoe deze is opgebouwd. Vervolgens heb ik drie verschillende secties gemaakt en daarin alle tekst geplaatst. Voor de knoppen naar de verschillende verzekeringspagina's heb ik afbeeldingen gebruikt, omdat dat eenvoudiger was. De tekst in de onderste sectie was gemakkelijk te plaatsen met alleen een header-tag en een paragraph-tag.</p>
+                <p>In CSS heb ik alle elementen van kleuren voorzien en alles links uitgelijnd met een padding van 100px. Het lastigste onderdeel van de landingspagina was de eerste sectie, waarin een afbeelding, prijs en knop staan. Elk element zit in een eigen div, waardoor de structuur overzichtelijk bleef. Ik heb eerst alle HTML geschreven en daarna de CSS toegevoegd.</p>
+                <p>Voor een visueel detail heb ik een icoon van een rekenmachine op internet gevonden en dit in de code verwerkt. Een uitdaging was om de "per maand"-tekst lager te plaatsen en het getal hoger. Na wat onderzoek ontdekte ik dat je hiervoor de <"sub">- en <"sup">-tags kunt gebruiken <a href=https://www.w3schools.com/tags/tag_sup.asp target="_blank">(W3Schools.com, z.d.)</a>.</p>
+                <p>Nadat ik alle HTML had geschreven, ben ik verder gegaan met de CSS. Ik heb in het prototype gekeken hoe groot de afbeelding moest zijn en die afmetingen in de code verwerkt. Omdat de afbeelding aan de rechterkant vast moest staan, heb ik right: 0; gebruikt. Voor de hoogte heb ik ook  top en translate toegepast. Om de afbeelding op de juiste positie te krijgen, heb ik position: absolute; gebruikt.</p>
+                <p>Voor de prijsinformatie heb ik de kleinere woorden in een aparte div geplaatst, zodat ik ze onder elkaar kon zetten. Hiervoor heb ik de CSS-eigenschap flex-direction: column; toegepast. Het icoon heb ik nog met stroke-width dikker gemaakt zodat alles klopt.</p>
             </div>
-            <div>
-                
-            </div>
-        </section>
-        <div class="text">
-            <p>Belangerijkste wat ik van deze samenwerking heb geleerd is dat het heel handig is om verschillende css bestanden te maken. Eerst zette ik alles in één bestand waardoor het heel erg onoverzichtelijk werd. Ik heb bij mijn teamgenoot gezien dat hij aparte CSS bestanden heeft gemaakt voor dingen zoals: header, footer, kleuren, cards, enz. Dit zorg er voor dat alles georganiseerd blijft. Dit heb ik dus ook meteen toegepast bij mijn eigen portfolio website. </p>
-            <p>Omdat Jonas stap 1 heeft gemaakt, had hij al code geschreven voor de kaarten. Deze heb ik kunnen kopieren en plakken in mijn eigen bestand. Ik heb een aantal dingen aangepast en zo heb ik makkelijk mijn pagina's kunnen maken. </p>
-            <p>We wisten al dat wij veel Javascript nodig gaan hebben bij het maken van ons website. Eerst wilde ik dit allemaal overlaten en mijn collega. Maar toen dacht ik er aan dat ik deze kennis ook nodig heb. Ik heb dus onderzoek gedaan en kwam er achter dat het niet eens zo heel moeilijk is. Bij stap 3 en 4 hebben we een dropdown nodig. Deze heb ik dus gemaakt bij stap 4, wat mijn pagina was. Ik heb ook een knop geprobeerd toe te voegen wat de eerste section zou dichtklappen en de twee uitklappen. Maar dit was niet meteen gelukt dus dat heb ik nu nog niet. Ik me hier wel nog meer in verdiepen tot het werkt. </p>
-            <p></p>
         </div>
-        <img src="images/inspecteren.png" alt="inspecteren" class="inspect">
-        <img src="images/card1.png" alt="card1" class="cards">
-        <img src="images/card2.png" alt="card2" class="cards">
-        <img src="images/card3.png" alt="card3" class="cards">
-        <img src="images/card1 code.png" alt="card1 code" class="card-code">
-        <img src="images/card3 code.png" alt="card3 code" class="card-code">
-        <img src="images/dropdown.png" alt="dropdown" class="dropdown">
-        <img src="images/java code.png" alt="java" class="java">
 
+        <div class="container">
+            <h2>Cards</h2>
+                <div class="text">
+                    <p>Nadat we de landingspagina, header en footer hadden afgerond, hebben we weer een meeting gehouden. Tijdens deze meeting hebben we besloten dat Jonas stap 1 zou maken en ik stap 2. Hierbij had ik een beetje geluk: Jonas was ruim voor de deadline klaar met zijn werk. Hierdoor kon ik zijn code gebruiken als basis voor het maken van stap 2. <br>
+                        Tijdens onze eerste meeting hadden we al afgesproken dat we de kaarten slechts één keer hoefden te maken, omdat we deze vervolgens eenvoudig konden dupliceren. Op de <a href="images/cardsGroup1.png" target="_blank">afbeelding</a> is de kaart die Jonas heeft ontworpen, inclusief de bijbehorende CSS, te zien.</p>
+                        
+                    <p>Ik heb de kaart aangepast zodat deze geschikt is voor <a href="images/card2.png" target="_blank">stap 2</a>. Hierbij heb ik de extra buttons verwijderd, zodat er slechts één button overblijft om de kaart te selecteren. Daarnaast heb ik een lijst toegevoegd in de inhoud van de kaart, waarbij ik vinkicoontjes heb gebruikt in plaats van cirkels. Voor de overige elementen heb ik dezelfde bereken je premie- en prijsdivs hergebruikt die ik ook op de landingspagina had ontworpen. Deze aangepaste kaart heb ik ook gebruikt bij <a href="images/cardsGroup2.png" target="_blank">stap 4</a>. Het verschil is dat er in stap 4 twee buttons zijn: één om de kaart te selecteren en één om de verschillende pakketten te vergelijken. Verder heb ik een "meer informatie"-sectie toegevoegd. Hoewel deze nu niet actief is, kan hier later gedetailleerde informatie over het pakket worden weergegeven. Bij stap 4 heb ik in totaal tien kaarten gemaakt: vijf voor de aanvullende verzekering en vijf voor de tandartsverzekering. Voor elke kaart heb ik alleen de prijs en de inhoudelijke tekst aangepast.</p>
+                </div> 
+        </div>
+
+        <div class="container">
+            <h2>Dropdown</h2>
+            <div class="text">
+                <p>Een van de eisen die we in project twee hadden gesteld, is dat alles overzichtelijk moet blijven. Dit wilden we realiseren door informatie inklapbaar te maken, zodat je alleen de kopteksten ziet. Dit moest met JavaScript worden geïmplementeerd. In eerste instantie wilde ik dit overlaten aan Jonas, omdat hij had aangegeven dat hij alle JavaScript wilde doen. Aangezien ik nog weinig ervaring met JavaScript had, leek me dat een goede verdeling.Toch besloot ik om het zelf te proberen, omdat ik graag wilde leren hoe het werkt en niet al het werk op mijn groepsgenoot wilde afschuiven. Hierbij heb ik wel hulp gehad van <a href="images/prompt1.png" target="_blank">ChatGPT</a>. Dit is de vraag die ik aan ChatGPT heb gesteld:</p>
+                <p>“ik maak een website in visual studio code met html css en javascript. Ik heb een gedeelte waar eer titel staat en als daar op wordt gedrukt komt alle informatie tevoorschijn als een dropdown. hoe maak ik dit?” </p>
+                <p>Na het ontvangen van de code van ChatGPT heb ik nog veel moeten aanpassen om alles te laten kloppen met het prototype. In de originele code had de titel een kleine border, maar ik wilde dat deze over de volledige breedte van de pagina liep. Dit soort aanpassingen heb ik zelf doorgevoerd. <a href=https://chatgpt.com/share/675c277f-e86c-8006-985d-3a99abc54bbf target="_blank">Hier is de gehele promt te zien</a>. Daarna heb ik een extra button toegevoegd tussen de twee secties. Het idee hierbij is dat de eerste sectie al geopend is wanneer de gebruiker op deze pagina komt. Nadat de gebruiker een kaart heeft gekozen, klikt hij op “Next”. Hierdoor sluit de eerste sectie automatisch en opent </p>
+            </div>
+        </div>
+
+        <div class="container">
+            <h2>Progress Bar</h2>
+            <div class="text">
+                <p> Het laatste wat ik heb gedaan om aan alle eisen te voldoen, is het toevoegen van een voortgangsbalk (progress bar) en een winkelmandje. Ik ben begonnen met een eenvoudige voortgangsbalk met twee stappen: 1. Aanvullende verzekering en 2. Tandartsverzekering. Bij elke stap kan er slechts één kaart worden gekozen, waardoor de voortgangsbalk verder wordt gevuld. Ik heb de voortgangsbalk gestileerd met de kleuren van Zekur om deze passend te maken bij het ontwerp. Nadat de voortgangsbalk werkte, heb ik aan <a href="images/group.png" target="_blank">ChatGPT</a> gevraagd hoe ik een winkelmandje kon maken. Ik heb dit winkelmandje vervolgens toegevoegd. Een aantal zaken, zoals de plaatsing en tekst, klopten niet helemaal in de originele code, dus die heb ik aangepast.</p>   
+                <p> Eerst werd in het winkelmandje alleen de losse prijzen getoond, maar ik heb ervoor gezorgd dat nu ook het bijbehorende pakket zichtbaar is. Daarnaast heb ik een restart-knop toegevoegd. Met deze knop wordt alle eerder ingevulde informatie gewist, zodat de gebruiker opnieuw kan beginnen. <a href=https://chatgpt.com/share/675c4a84-7ac0-8006-be30-837dc217fcd8 target="_blank">Hier is de hele promt voor het winkelmandje</a>.</p>                 
+                <p> heb geprobeerd om de voortgangsbalk volledig werkend te krijgen over alle pagina's, maar dit is niet helemaal gelukt. Tijdens het kiezen van de pakketten en het beantwoorden van de vragen werkt de balk zoals bedoeld. Echter, op het einde, bij het invullen van de persoonlijke gegevens, gaat de weergegeven prijs plotseling naar €0,00 en wordt de voortgangsbalk gereset. <br>
+                    Helaas had ik geen tijd meer om dit probleem op te lossen. We hebben het project in deze staat gepresenteerd en uitgelegd welke punten nog verbeterd moeten worden. De klant was begripvol en waardeerde onze uitleg.</p>   
+            </div>
+        </div>
     </section>
     <div class="gradient-divider"></div>
 
     <!-------------reflectie----------------------------------------------------------------------->
 
-    <section class="reflectie">
-        <div class="text">
-            <h3>reflectie</h3>
-            <p> </p>
-        </div>
-    </section>
+    <section class="title" id="reflectie">
+        <div class="container">
+            <h3>Reflectie</h3>
+                <div class="text">
+                    <p>Ik vond dit echt een superleuk en leerzaam project. Hoewel ik nog niet heel goed ben in programmeren, vind ik het wel ontzettend leuk om te doen. Ik ben blij dat ik in een groepje zat met iemand die al veel meer ervaring en kennis heeft van programmeren. Ik heb veel van hem geleerd.</p>
+                    <p>Het belangrijkste dat ik van deze samenwerking heb geleerd, is hoe handig het is om verschillende CSS-bestanden te gebruiken. In het begin zette ik alles in één bestand, wat erg onoverzichtelijk werd. Van mijn teamgenoot heb ik geleerd om aparte CSS-bestanden te maken voor verschillende onderdelen, zoals de header, footer, kleuren, en kaarten. Dit zorgt ervoor dat alles georganiseerd blijft. Deze aanpak heb ik meteen toegepast op mijn eigen portfolio-website.</p>
+                    <p>Verder heb ik geleerd hoe ik mijn code kan delen via GitHub. Dit is erg handig voor versiebeheer. Ook heb ik veel geleerd over de opmaak van een website en hoe je deze overzichtelijk kunt houden.</p>
+                    <p>Ik ben vooral blij dat ik iets heb gedaan met JavaScript. Hoewel ik nog niet in staat ben om een volledig werkend stuk JS-code zelfstandig te schrijven, kan ik nu wel begrijpen wat er staat en aanpassingen maken. Dit is voor mij een grote stap vooruit.</p>
+                    <p>Kortom, dit project was voor mij een waardevolle en leuke ervaring. Het heeft me veel nieuwe inzichten en vaardigheden gegeven, en het heeft mijn interesse in programmeren verder aangewakkerd.</p>
+                </div>
+            </div>
+        </section>
 
 <!---------------footer--------------------------------------------------------------------->
 <footer class="footer">

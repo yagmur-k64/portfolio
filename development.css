@@ -72,7 +72,10 @@
 
 }
 
-
+.zekurWebsite a{
+  color: #FCFD9D;
+  font-weight: lighter;
+}
    /*-------------------------inhoud---------------------------------------*/
 
    .programmeren{
@@ -88,3 +91,22 @@
     padding-top: 20px;
    }
 
+   .text{
+    font-size: 16px;
+}
+.text p{
+    padding-top: 8px;
+}
+.container {
+    margin: 10px auto;
+}
+.title{
+    margin: 10px 200px;
+}
+.container h2{
+    color: #D20C65;
+}
+
+#reflectie{
+  margin-bottom: 50px;
+}
