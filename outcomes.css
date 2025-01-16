@@ -23,7 +23,7 @@
 
 .kop{
     font-size: 18px;
-    color: white;
+    color: #D20C65;
 }
 
 .dropdown-content a{
@@ -31,7 +31,7 @@
 }
 
 .dropdown-content{
-    margin: 10px 150px;
+    margin: 10px 200px;
 }
 
 .dropdown-content li{
@@ -49,4 +49,23 @@
 
 .bewijs-container ul{
     margin: 20px;
+}
+
+.reflectie{
+    margin: 10px auto 50px auto; 
+
+}
+
+.reflectie h3{
+    font-size: 24px;
+    color: #D20C65;
+}
+
+.reflectie p{
+    font-size: 16px;
+    color: white;
+}
+
+#einde, #LO4{
+    margin-bottom: 100px;
 }
