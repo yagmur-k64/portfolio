@@ -57,3 +57,9 @@
 .text a{
     color: #FCFD9D;
    }
+
+
+.afbeelding{
+    max-width: 75%;
+    border-radius: 25px;
+   }

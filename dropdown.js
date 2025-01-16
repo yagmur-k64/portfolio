@@ -32,4 +32,25 @@ document.addEventListener("DOMContentLoaded", () => {
         content4.style.display = content4.style.display === "block" ? "none" : "block";
     });
 
+// Check for URL parameter and open the corresponding dropdown
+const urlParams = new URLSearchParams(window.location.search);
+const openDropdown = urlParams.get("open");
+
+if (openDropdown) {
+    switch (openDropdown) {
+        case "1":
+            content1.style.display = "block";
+            break;
+        case "2":
+            content2.style.display = "block";
+            break;
+        case "3":
+            content3.style.display = "block";
+            break;
+        case "4":
+            content4.style.display = "block";
+            break;
+    }
+}
 });
+
